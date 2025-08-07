@@ -57,6 +57,7 @@ npx playwright show-report
 ```
 
 ## 🌏 Link of CI report 
+https://github.com/OleksandrBaior/UDT/actions
 
 
 ## 🔑 License
