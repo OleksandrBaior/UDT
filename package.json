@@ -1,0 +1,31 @@
+{
+  "name": "udt",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">  <img <img src=\"https://raw.githubusercontent.com/github/explore/60cd2530141f67f07a947fa2d310c482e287e387/topics/playwright/playwright.png\" width=\"80\"/>  <h1>Playwright-framework</h1> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npx playwright test",
+    "test:UImode": "npx playwright test --ui",
+    "test:headedMode": "npx playwright test --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksandrBaior/UDT.git"
+  },
+  "keywords": [
+    "playwright",
+    "github",
+    "e2e"
+  ],
+  "author": "Oleksandr Baior",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OleksandrBaior/UDT/issues"
+  },
+  "homepage": "https://github.com/OleksandrBaior/UDT#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.0"
+  }
+}

@@ -5,16 +5,26 @@
 </div>
 
 ## ⚡️ Object for testing
-Web site - https://events.shooters.global
+Web site: https://events.shooters.global
 
 
 
 ##  📦 Setup
 
 1. Install [node.js](https://nodejs.org/en/) - JavaScript runtime environment
-2. Clone git repository `git clone https://github.com/OleksandrBaior/JS-Playwright-AllureReport.g`
-3. Install project dependencies specified in the package.json `npm install`
-4. Install playwright `npx playwright install`.
+2. Clone git repository 
+```
+git clone https://github.com/OleksandrBaior/UDT.git
+```
+3. Install dependencies
+```
+npm install
+````
+4. Install Playwright and its browsers:
+```
+npx playwright install
+````
+
 
 ## ⚙️ Running Tests
 
@@ -29,56 +39,25 @@ Run your tests with UI Mode:
 ```
 npx playwright test --ui
 ```
-
-Running a single test file:
-
-```
-npx playwright test example-page.spec.ts
-```
-
-Running a test file for tag:
+Run your tests with headed Mode:
 
 ```
- npx playwright test --grep=@[tag]
-```
-
-To debug tests with playwright inspector:
-
-```
-npx playwright test --debug
-```
-
-## 📜 Allure Report
-
-For reporting used Allure Report - Automation Test Reporting Tool  
-Learn more about Allure Report at [Allure](https://allurereport.org/)
-
-To generate allure report:
-
-```
-allure generate --clean -o reports/allure-report reports/allure-results
-```
-
-To open allure report:
-
-```
-allure open reports/allure-report
+npx playwright test --headed
 ```
 
 ## 📝 Playwright Report
 
-For reporting used Playwright Reports - **LIST and HTML**  
+For reporting used Playwright Reports - **LIST and     HTML**  
 Learn more about Playwright Reports at [Reports](https://playwright.dev/docs/test-reporters#introduction)
 
 To open html report :
 
 ```
-npx playwright show-report reports\html-report
+npx playwright show-report
 ```
 
-## 🌏 Link of Allure report on CI 
+## 🌏 Link of CI report 
 
-[https://oleksandrbaior.github.io/Playwright_framework_AllureReport_JS/index.html](https://oleksandrbaior.github.io/Playwright_framework_AllureReport_JS/index.html) 
 
 ## 🔑 License
 
